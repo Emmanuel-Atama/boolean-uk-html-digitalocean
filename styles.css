@@ -1,0 +1,287 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  font-family: calibri;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.main-nav ul {
+  height: 100%;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 0.25rem;
+}
+header {
+  width: auto;
+  height: 3.75rem;
+}
+.center {
+  max-width: 140ch;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.digital-ocean-icon img {
+  height: 2rem;
+  object-fit: cover;
+}
+.features-nav ul {
+  text-align: center;
+}
+.features-nav li {
+  width: 100%;
+  height: 1.875rem;
+}
+.user-nav li {
+  width: 100%;
+  height: 1.875rem;
+}
+.features-nav,
+.user-nav {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.features-nav {
+  margin-right: 3rem;
+}
+.user-nav {
+  margin-left: 4rem;
+}
+.drop-down {
+  width: auto;
+  height: 1rem;
+}
+.google-class {
+  width: auto;
+  height: 1.2rem;
+  object-fit: cover;
+}
+.sign-up-button {
+  background-color: white;
+  color: blue;
+  border: 1px solid blue;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  text-align: center;
+}
+.text-align-center {
+  text-align: center;
+}
+.first-main {
+  width: auto;
+  height: auto;
+  padding: 1rem;
+  background-color: rgb(62, 62, 199);
+}
+.simplest-cloud {
+  height: auto;
+  width: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.simplest-cloud h1 {
+  color: white;
+  font-size: 3.2rem;
+  width: auto;
+}
+.simplest-cloud p {
+  color: white;
+  font-size: 1.5rem;
+  width: auto;
+}
+.create-account {
+  width: auto;
+  padding: 0.4rem;
+  border-radius: 0.4rem;
+  background-color: rgb(86, 84, 224);
+  color: white;
+  margin: 0;
+}
+.sign-up {
+  width: auto;
+  padding: 0.4rem;
+  border-radius: 0.4rem;
+  background-color: rgb(249, 249, 253);
+  color: rgb(31, 29, 29);
+  margin: 0;
+}
+.google-account-form {
+  width: auto;
+  height: auto;
+  background-color: white;
+  border: 0.125rem solid white;
+  border-radius: 1rem;
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
+  margin-left: 1rem;
+}
+.blue-text {
+  color: blue;
+}
+.form-section,
+input,
+label,
+button {
+  display: block;
+  margin: 0.5rem;
+  padding: 0.25rem;
+  border: 0;
+  width: auto;
+}
+.create-account,
+.signup button {
+  margin: 0;
+  margin-top: 1rem;
+  border: 0;
+  border-bottom: 1px solid grey;
+}
+.terms {
+  width: auto;
+  text-align: center;
+}
+.text {
+  text-align: center;
+  font-size: 1.5rem;
+  color: rgb(23, 23, 63);
+}
+.text-lg {
+  text-align: center;
+  font-size: 2.1rem;
+  color: rgb(23, 23, 63);
+}
+.text1 {
+  text-align: center;
+  padding: 1rem;
+  color: rgb(107, 105, 105);
+}
+.logos-section img {
+  width: auto;
+  height: 6rem;
+  padding: 0.5rem;
+  object-fit: cover;
+}
+a {
+  text-decoration-style: none;
+}
+#reviews a {
+  text-decoration: none;
+}
+#reviews {
+  padding: 2rem;
+}
+.text-style-two {
+  text-align: center;
+  color: rgb(23, 23, 63);
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+.container-for-deploy {
+  border: 1px solid gray;
+  width: auto;
+  border-right: 0;
+  border-top: 0;
+  border-bottom: 0;
+  border-left: 50%;
+  color: grey;
+}
+.deploy-list li {
+  padding: 0.5rem;
+  font-size: 1.5rem;
+}
+.dark-blue-text {
+  color: rgb(23, 23, 63);
+}
+.icon-sm {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+.section-color {
+  background-color: rgb(224, 224, 240);
+}
+.center-two {
+  max-width: 100ch;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+.center-three {
+  max-width: 80ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+.white-text {
+  color: white;
+  margin: 0.5rem;
+}
+.faded-white-text {
+  color: rgb(150, 146, 146);
+  margin-bottom: 0.5rem;
+}
+.light-green-text {
+  color: rgb(91, 167, 156);
+}
+.faded-white-text-two {
+  color: rgb(219, 217, 217);
+  margin-bottom: 0.5rem;
+}
+.feature-biz {
+  font-size: 1.6rem;
+  color: rgb(23, 23, 63);
+  text-align: center;
+}
+.first-main h2 {
+  font-size: 2rem;
+}
+.flight-section {
+  border: 1px solid white;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+.rockerbox {
+  width: auto;
+  height: 7rem;
+  margin-top: 2rem;
+}
+.create-ur-acct {
+  border-radius: 0.25rem;
+  padding: 0.7rem;
+  color: blue;
+  font-size: 1rem;
+}
+.last-main {
+  width: auto;
+  height: auto;
+  padding: 1rem;
+  background-color: blue;
+}
+.icon-footer {
+  height: 2rem;
+  width: 2rem;
+}
+.foot {
+  color: white;
+  padding: 2rem;
+  margin: 1rem;
+}
+.footer-center {
+  max-width: 150ch;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
